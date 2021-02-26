@@ -7,9 +7,9 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Tons do Brás Residencial Clube';
+        $data['description'] = 'As novas cores da sua vida.';
+        $data['keywords'] = 'com terraço, 1 vaga, lazer total, 1 dorm, 2 dorm';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);

@@ -7,9 +7,9 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Tons do Brás Residencial Clube';
+        $data['description'] = 'As novas cores da sua vida.';
+        $data['keywords'] = 'com terraço, 1 vaga, lazer total, 1 dorm, 2 dorm';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -18,15 +18,15 @@ class Contato extends CI_Controller{
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.tonsdobras.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","$nome"); //senha: xxxxxx
-            $this->email->to('contato@landingpagemodelo.com.br');
-            $this->email->cc('landingpagemodelo.com, paulobaronista@gmail.com');
+            $this->email->from("contato@tonsdobras.com.br","Tons do Brás");
+            $this->email->to('contato@tonsdobras.com.br');
+            $this->email->cc('paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -42,13 +42,6 @@ class Contato extends CI_Controller{
             }else{
                 redirect('contato/fail');
             }
-
-            //            if($this->email->send()){
-            //                redirect('http://racklavaloucas.com.br/contato/obrigado');
-            //            }else{
-            //                redirect('http://racklavaloucas.com.br/contato/fail');
-            //            }
-
         }
 
         $this->load->view('html_header', $data);
@@ -60,9 +53,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Tons do Brás Residencial Clube';
+        $data['description'] = 'As novas cores da sua vida.';
+        $data['keywords'] = 'com terraço, 1 vaga, lazer total, 1 dorm, 2 dorm';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -74,9 +67,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Tons do Brás Residencial Clube';
+        $data['description'] = 'As novas cores da sua vida.';
+        $data['keywords'] = 'com terraço, 1 vaga, lazer total, 1 dorm, 2 dorm';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
