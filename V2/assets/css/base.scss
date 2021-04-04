@@ -126,6 +126,10 @@
     margin-top: 400px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .padding-off {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -220,7 +224,7 @@ p {
         display: table;
         margin: 10% auto 0;
         width: 40%;
-        background-color:#eb640a;
+        background-color: #eb640a;
         padding: 20px 10px;
         position: relative;
 
@@ -299,6 +303,7 @@ p {
             font-size: 12px;
             line-height: 14px;
             margin-top: 7px;
+
             a {
                 color: #fff;
             }

@@ -1,0 +1,92 @@
+.ficha-tecnica {
+  padding-top: 40px;
+}
+
+.ficha-tecnica p {
+  font-family: 'Gill Sans Std';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.ficha-tecnica .cliqueMapa img {
+  margin-top: 65%;
+}
+
+.bairro {
+  background-color: #ffd64a;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.bairro p {
+  font-family: 'Gill Sans Std';
+  font-weight: bold;
+  font-style: normal;
+  color: #af1b1e;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.bairro .bairro2 {
+  margin-top: 30px;
+}
+
+.caminho {
+  background-color: #90cfd6;
+  padding-top: 30px;
+}
+
+.navegacao .dt {
+  border-right: 1px solid #af1b1e;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .ficha-tecnica {
+    padding-top: 20px;
+  }
+  .ficha-tecnica p {
+    margin-bottom: 5px;
+  }
+  .ficha-tecnica .cliqueMapa img {
+    max-width: 50%;
+    margin-top: 3%;
+  }
+  .bairro {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .bairro p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .bairro .bairro2 {
+    margin-top: 20px;
+  }
+  .caminho {
+    padding-top: 20px;
+  }
+  .caminho .endereco2 {
+    max-width: 55%;
+  }
+  .navegacao .dt {
+    border-right: 0px solid transparent;
+    border-bottom: 1px solid #af1b1e;
+  }
+  .navegacao img {
+    max-width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=fichatecnica.css.map */

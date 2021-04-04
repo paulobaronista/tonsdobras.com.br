@@ -1,0 +1,141 @@
+.implantacao {
+  padding-top: 50px;
+}
+
+.implantacao .tt {
+  font-family: 'Gill Sans Std';
+  font-weight: bold;
+  font-style: normal;
+  color: #eb640a;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+.linha {
+  border-top: solid 1px #3a3a3a;
+  margin-top: 10px;
+}
+
+.linha .lg {
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  color: #3a3a3a;
+}
+
+.dt2 {
+  margin-top: 30px;
+}
+
+.video {
+  background-color: #ff6500;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video .tt {
+  font-family: 'Gill Sans Std';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+.video .boxVideo {
+  padding: 9px 10px 5px;
+  border: solid 1px #fff;
+  border-radius: 20px;
+}
+
+.video .boxVideo audio,
+.video .boxVideo canvas,
+.video .boxVideo progress,
+.video .boxVideo video {
+  display: inline-block;
+  vertical-align: baseline;
+  border-radius: 20px;
+}
+
+.planta {
+  padding-top: 50px;
+}
+
+.planta .tt {
+  font-family: 'Gill Sans Std';
+  font-weight: bold;
+  font-style: normal;
+  color: #af1b1e;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+.planta .txt {
+  font-family: 'Gill Sans Std';
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 30px;
+}
+
+.planta .planta2 {
+  margin-top: 20%;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .implantacao {
+    padding-bottom: 15px;
+    padding-top: 20px;
+  }
+  .implantacao .tt {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 10px;
+  }
+  .dt2 {
+    margin-top: 0px;
+  }
+  .dt2 img {
+    max-width: 50%;
+  }
+  .video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .video .tt {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 10px;
+  }
+  .planta {
+    padding-top: 20px;
+  }
+  .planta .tt {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 20px;
+  }
+  .planta .txt {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 10px;
+  }
+  .planta .planta2 {
+    margin-top: 20%;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=perspectiva.css.map */

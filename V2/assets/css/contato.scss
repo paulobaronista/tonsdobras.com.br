@@ -1,25 +1,18 @@
 .contato {
+    padding-top: 20px;
 
-    h5,
-    p {
+    h5 {
         font-family: 'Gill Sans Std';
         font-weight: bold;
         font-style: normal;
-        color: #000;
+        color: #af1b1e;
         text-transform: uppercase;
-    }
-
-    h5 {
-        font-size: 27px;
-        line-height: 27px;
+        font-size: 32px;
+        line-height: 35px;
         margin: 0 0 10px 0;
     }
 
-    p {
-        font-size: 16px;
-        line-height: 16px;
-        letter-spacing: 2px;
-    }
+
 
     .form-control {
         display: block;
@@ -62,6 +55,7 @@
         background-color: #eb640a;
         height: 40px;
     }
+
     .dt1 {
         padding-right: 0px;
     }
@@ -89,12 +83,13 @@
         .dt1 {
             padding: 0px;
         }
+
         h5 {
             font-size: 20px;
             line-height: 20px;
             margin: 0 0 10px 0;
         }
-    
+
         p {
             font-size: 14px;
             line-height: 14px;

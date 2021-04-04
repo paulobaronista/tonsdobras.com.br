@@ -1,0 +1,109 @@
+.ficha-tecnica {
+    padding-top: 40px;
+
+    p {
+        font-family: 'Gill Sans Std';
+        font-weight: normal;
+        font-style: normal;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .cliqueMapa {
+        img {
+            margin-top: 65%;
+        }
+    }
+}
+
+.bairro {
+    background-color: #ffd64a;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    p {
+        font-family: 'Gill Sans Std';
+        font-weight: bold;
+        font-style: normal;
+        color: #af1b1e;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .bairro2 {
+        margin-top: 30px;
+    }
+}
+
+.caminho {
+    background-color: #90cfd6;
+    padding-top: 30px;
+}
+
+.navegacao {
+    .dt {
+        border-right: 1px solid #af1b1e;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .ficha-tecnica {
+        padding-top: 20px;
+
+        p {
+            margin-bottom: 5px;
+        }
+
+        .cliqueMapa {
+            img {
+                max-width: 50%;
+                margin-top: 3%;
+            }
+        }
+    }
+
+    .bairro {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        p {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .bairro2 {
+            margin-top: 20px;
+        }
+    }
+
+    .caminho {
+        padding-top: 20px;
+        .endereco2 {
+            max-width: 55%;
+        }
+    }
+
+    .navegacao {
+        .dt {
+            border-right: 0px solid transparent;
+            border-bottom: 1px solid #af1b1e;
+        }
+        img {
+            max-width: 70%;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

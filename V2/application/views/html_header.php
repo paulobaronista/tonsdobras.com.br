@@ -33,10 +33,11 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=1.6.1');
+    echo link_tag('assets/css/style.css?v=1.7.2');
     echo link_tag('assets/css/lightbox.min.css');
     echo link_tag('assets/css/slick.css');
     echo link_tag('assets/css/slick-theme.css');
+    echo link_tag('assets/css/animate.min.css');
     ?>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -66,5 +67,30 @@
     </script>
 
 </head>
+
+<!-- Load -->
+<div id="loader">
+    <div id="bg_loader">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-bras.png" title="Tons do Brás" alt="Tons do Brás" />
+        <div class="windows8">
+            <div class="wBall" id="wBall_1">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_2">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_3">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_4">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_5">
+                <div class="wInnerBall"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Load -->
 
 <body>

@@ -1,0 +1,38 @@
+.box-galeria {
+  background-color: #eb640a;
+  padding-bottom: 15px;
+  padding-top: 50px;
+}
+
+.box-galeria p {
+  font-family: 'Gill Sans Std';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 45px;
+  padding-bottom: 30px;
+}
+
+.box-galeria p span {
+  color: #f5d556;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .box-galeria {
+    padding-bottom: 15px;
+    padding-top: 20px;
+  }
+  .box-galeria p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=galeria.css.map */

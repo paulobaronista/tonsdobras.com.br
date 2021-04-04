@@ -126,6 +126,10 @@
   margin-top: 400px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .padding-off {
   padding-left: 0px !important;
   padding-right: 0px !important;

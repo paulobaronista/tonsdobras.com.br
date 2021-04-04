@@ -1,3 +1,30 @@
+<nav class="navbar navbar-default menu">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar" style="background-color: #cf641c;"></span>
+                <span class="icon-bar" style="background-color: #cf641c;"></span>
+                <span class="icon-bar" style="background-color: #cf641c;"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-bras.png" alt="Tons do Brás">
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.tonsdobras.com.br/#home">Home</a></li>
+                <li><a href="https://www.tonsdobras.com.br/#empreendimento">Empreendimento</a></li>
+                <li><a href="https://www.tonsdobras.com.br/#video">Vídeo</a></li>
+                <li><a href="https://www.tonsdobras.com.br/#plantas">Plantas</a></li>
+                <li><a href="https://www.tonsdobras.com.br/#fichatecnica">Ficha Técnica</a></li>
+                <li><a href="https://www.tonsdobras.com.br/#localizacao">Localização</a></li>
+                <li><a href="https://www.tonsdobras.com.br/#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <div class="politica">
     <div class="container-fluid politica-tt">
         <div class="row">
