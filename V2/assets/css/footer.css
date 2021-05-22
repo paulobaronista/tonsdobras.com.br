@@ -5,13 +5,19 @@ footer {
   padding-bottom: 30px;
 }
 
-footer figcaption,
-footer p {
+footer figcaption {
   font-family: 'Futura Std';
   font-weight: normal;
   font-style: normal;
   color: #000;
   text-transform: uppercase;
+}
+
+footer p {
+  font-family: 'Futura Std';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
 }
 
 footer figcaption {

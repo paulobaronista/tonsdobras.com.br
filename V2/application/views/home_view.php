@@ -7,7 +7,7 @@
                 <span class="icon-bar" style="background-color: #cf641c;"></span>
                 <span class="icon-bar" style="background-color: #cf641c;"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand scrollink" href="#home">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-bras.png" alt="Tons do Brás">
             </a>
         </div>
@@ -17,7 +17,7 @@
                 <li><a class="scrollink" href="#empreendimento">Empreendimento</a></li>
                 <li><a class="scrollink" href="#video">Vídeo</a></li>
                 <li><a class="scrollink" href="#plantas">Plantas</a></li>
-                <li><a class="scrollink" href="#fichatecnica">Ficha Técnica</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modalFicha">Ficha Técnica</a></li>
                 <li><a class="scrollink" href="#localizacao">Localização</a></li>
                 <li><a class="scrollink" href="#contato">Contato</a></li>
             </ul>
@@ -31,10 +31,10 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 padding-off">
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 text-center wow animate__animated animate__bounceInLeft">
-                        <p>BREVE Lançamento - Brás</p>
+                        <p>Lançamento - Brás</p>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__bounceInRight">
-                        <a class="btn" href="#" target="_blank">
+                        <a class="btn" href="https://vemplan.sigavi360.com.br/Chat/NovoAtendimento/1133?midia=land_tons" target="_blank">
                             corretores<br />
                             online
                         </a>
@@ -89,78 +89,78 @@
                 <div class="galeria">
                     <section class="galeria-home slider">
                         <div>
+                            <a href="<?= base_url(); ?>assets/images/galeria/05-full.jpg" data-lightbox="galeria-pp">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/05.jpg" alt="Perspectiva Artística">
+                            </a>
+                        </div>
+                        <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/01-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/01.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/01.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/02-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/02.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/02.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/03-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/03.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/03.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/04-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/04.jpg" alt="Perspectiva Artística da Brinquedoteca">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="<?= base_url(); ?>assets/images/galeria/05-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/05.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/04.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/06-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/06.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/06.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/07-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/07.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/07.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/08-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/08.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/08.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/09-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/09.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/09.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/10-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/10.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/10.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/11-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/11.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/11.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/12-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/12.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/12.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/13-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/13.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/13.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/14-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/14.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/14.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/15-full.jpg" data-lightbox="galeria-pp">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/15.jpg" alt="Perspectiva Artística da Brinquedoteca">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/15.jpg" alt="Perspectiva Artística">
                             </a>
                         </div>
                     </section>
@@ -251,68 +251,6 @@
     </div>
 </div>
 
-<div class="container-fluid padding-off dt4">
-    <img class="img-responsive" src="<?= base_url(); ?>assets/images/dt4.jpg" alt="Fachada">
-</div>
-
-<div id="fichatecnica" class="container ficha-tecnica">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-            <div class="col-xs-12 col-sm-7 col-md-7 wow animate__animated animate__bounceInLeft">
-                <p>
-                    <strong>Endereço do empreendimento:</strong>
-                </p>
-                <p>
-                    Rua Claudino Pinto, 36 – Brás, São Paulo/SP
-                </p>
-                <a href="<?= base_url(); ?>assets/images/mapa-full.jpg" data-lightbox="mapa">
-                    <img class="img-responsive" style="margin-bottom: 5px;" src="<?= base_url(); ?>assets/images/vermapa.jpg" alt="Mapa">
-                </a>
-                <p>
-                    <strong>Construção:</strong> Construtora e Incorporadora Faleiros
-                </p>
-                <p>
-                    <strong>Vendas:</strong> Vemplan
-                </p>
-                <p>
-                    <strong>Projeto de Arquitetura:</strong> RCCO Arquitetura
-                </p>
-                <p>
-                    <strong>Projeto de Paisagismo:</strong> Marcelo Faisal
-                </p>
-                <p>
-                    <strong>Área do terreno:</strong> 2.572,10 M2
-                </p>
-                <p>
-                    <strong>Número de torres:</strong> 1
-                </p>
-                <p>
-                    <strong>Número de pavimentos:</strong> 24 Pav. Tipo + Cobertura
-                </p>
-                <p>
-                    <strong>Número de unidades por andar:</strong><br />
-                    Tipo – 20 unidades (1 dorm. – 16 / 2 dorms. – 4)<br />
-                    Cobertura – 6 unidades (1 dorm.)
-                </p>
-                <p>
-                    <strong>Total de unidades:</strong> 486 (1 dorm. – 390 / 2 dorms. – 96)
-                </p>
-                <p>
-                    <strong>Número de elevadores:</strong> 5
-                </p>
-                <p>
-                    <strong>Área Privativa:</strong> 1 dorm – 29 m2 / 2 dorms. – 44 m2
-                </p>
-            </div>
-            <div class="col-xs-12 col-sm-5 col-md-5 wow animate__animated animate__bounceInRight">
-                <a class="cliqueMapa" href="<?= base_url(); ?>assets/images/cliqueMapa-full.jpg" data-lightbox="mapa">
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cliqueMapa.jpg" alt="Mapa">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="container-fluid padding-off dt5">
     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/dt5.jpg" alt="Fachada">
 </div>
@@ -368,12 +306,12 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 dt wow animate__animated animate__bounceInLeft">
-                    <a href="" target="_blank">
+                    <a href="https://waze.com/ul/h6gyf5111q" target="_blank">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/waze.jpg" alt="Waze">
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow animate__animated animate__bounceInRight">
-                    <a href="" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=5511964861154&text=Olá%2C%20entrei%20no%20site%20do%20Tons%20do%20Br%C3%A1s%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" target="_blank">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/whatsApp.jpg" alt="WhatsApp">
                     </a>
                 </div>

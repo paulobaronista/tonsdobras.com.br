@@ -7,7 +7,7 @@
                 <span class="icon-bar" style="background-color: #cf641c;"></span>
                 <span class="icon-bar" style="background-color: #cf641c;"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="https://www.tonsdobras.com.br/#home">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-bras.png" alt="Tons do Brás">
             </a>
         </div>

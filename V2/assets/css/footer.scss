@@ -4,8 +4,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 
-    figcaption,
-    p {
+    figcaption {
         font-family: 'Futura Std';
         font-weight: normal;
         font-style: normal;
@@ -13,26 +12,39 @@ footer {
         text-transform: uppercase;
     }
 
+    p {
+        font-family: 'Futura Std';
+        font-weight: normal;
+        font-style: normal;
+        color: #000;
+    }
+
     figcaption {
         font-size: 13px;
         line-height: 13px;
     }
+
     p {
         font-size: 11px;
         line-height: 15px;
     }
+
     .caixa {
         margin-top: 40px;
-    } 
+    }
+
     .vemplan {
         margin-top: 40px;
     }
+
     .riacho {
         margin-top: 20px;
-    }  
+    }
+
     .faleiros {
         margin-top: 30px;
     }
+
     .navbar-nav {
         margin-top: 20px;
 
@@ -72,23 +84,28 @@ footer {
     footer {
         padding-top: 30px;
         padding-bottom: 15px;
-    
+
         p {
             font-size: 11px;
             line-height: 15px;
         }
+
         .caixa {
             margin-top: 20px;
-        } 
+        }
+
         .vemplan {
             margin-top: 20px;
         }
+
         .riacho {
             margin-top: 20px;
-        }  
+        }
+
         .faleiros {
             margin-top: 20px;
         }
+
         .space {
             margin-bottom: 30px;
         }
