@@ -29,14 +29,19 @@
     <div class="box">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 padding-off">
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 text-center wow animate__animated animate__bounceInLeft">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 text-center wow animate__animated animate__bounceInLeft">
                         <p>Lançamento - Brás</p>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center wow animate__animated animate__bounceInRight">
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 text-center wow animate__animated animate__bounceInRight">
                         <a class="btn" href="https://vemplan.sigavi360.com.br/Chat/NovoAtendimento/1133?midia=land_tons" target="_blank">
                             corretores<br />
                             online
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 text-center wow animate__animated animate__bounceInRight">
+                        <a class="btn" href="https://www.3dexplora.com.br/seutour.aspx?codigo=btQQKAF5f3Q&play=1&hl=0&qs=1&wh=1&lp=0&ts=1" target="_blank">
+                            Assista <br />Tour virtual
                         </a>
                     </div>
                 </div>
