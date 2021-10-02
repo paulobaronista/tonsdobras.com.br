@@ -40,7 +40,7 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 text-center wow animate__animated animate__bounceInRight">
-                        <a class="btn" href="https://www.3dexplora.com.br/seutour.aspx?codigo=btQQKAF5f3Q&play=1&hl=0&qs=1&wh=1&lp=0&ts=1" target="_blank">
+                        <a class="btn" href="#" data-toggle="modal" data-target="#modalTourVirtual">
                             Assista <br />Tour virtual
                         </a>
                     </div>

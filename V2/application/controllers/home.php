@@ -7,8 +7,8 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'BREVE LANÇAMENTO - BRÁS';
-        $data['description'] = 'tons do bras; apartamento bras; apto bras; apto centro sp';
+        $data['title'] = 'Tons do Brás Residencial Clube';
+        $data['description'] = 'As novas cores da sua vida.';
         $data['keywords'] = 'com terraço, 1 vaga, lazer total, 1 dorm, 2 dorm';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
@@ -21,8 +21,8 @@ class Home extends CI_Controller{
 
     }
     public function politicadeprivacidade() {
-        $data['title'] = 'BREVE LANÇAMENTO - BRÁS';
-        $data['description'] = 'tons do bras; apartamento bras; apto bras; apto centro sp';
+        $data['title'] = 'Tons do Brás Residencial Clube';
+        $data['description'] = 'As novas cores da sua vida.';
         $data['keywords'] = 'com terraço, 1 vaga, lazer total, 1 dorm, 2 dorm';
         $menu['politicadeprivacidade'] = 'active';
         $conteudo['pagina_view'] = 'politicadeprivacidade_view';

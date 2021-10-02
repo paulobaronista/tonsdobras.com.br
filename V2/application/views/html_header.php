@@ -6,8 +6,8 @@
     <title><?php echo $title; ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="BREVE LANÇAMENTO - BRÁS" />
-    <meta name="og:title" content="BREVE LANÇAMENTO - BRÁS" />
+    <meta name="title" content="LANÇAMENTO - BRÁS" />
+    <meta name="og:title" content="LANÇAMENTO - BRÁS" />
     <meta name="og:description" content="tons do bras; apartamento bras; apto bras; apto centro sp" />
     <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
@@ -16,9 +16,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>assets/images/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="<?= base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png">
     <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta name="theme-color" content="#5d1580" />
+    <meta name="theme-color" content="#ffffff" />
     <!-- property (faz funcionar no linkedin) -->
-    <meta property="og:title" content="BREVE LANÇAMENTO - BRÁS" />
+    <meta property="og:title" content="LANÇAMENTO - BRÁS" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <meta property="tons do bras; apartamento bras; apto bras; apto centro sp" />
     <meta property="og:url" content="https://www.tonsdobras.com.br" />
@@ -33,7 +33,7 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=1.7.4');
+    echo link_tag('assets/css/style.css?v=1.7.5');
     echo link_tag('assets/css/lightbox.min.css');
     echo link_tag('assets/css/slick.css');
     echo link_tag('assets/css/slick-theme.css');

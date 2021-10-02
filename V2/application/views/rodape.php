@@ -55,3 +55,28 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade modalTourVirtual" id="modalTourVirtual" tabindex="-1" role="dialog" aria-labelledby="modalTourVirtual">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <p>Tour Virtual 1 Dorm</p>
+                        <a href="https://www.3dexplora.com.br/seutour.aspx?codigo=btQQKAF5f3Q&play=1&hl=0&qs=1&wh=1&lp=0&ts=1" target="_blank">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Tour_Virtual_1_Dorm.png" alt="Assista Tour virtual">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 visible-xs margin-top-30"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 text-center">
+                        <p>Tour Virtual 2 Dorm</p>
+                        <a href="https://www.pixelblend.com.br/tour-vurtual-360-apartamento-2-quartos/" target="_blank">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Tour_Virtual_2_Dorm.png" alt="Assista Tour virtual">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -352,6 +352,42 @@ p {
     }
 }
 
+.modalTourVirtual {
+    background-color: rgba(0, 0, 0, 0.6);
+
+    .modal-content {
+        background-color: #ff6500;
+        border: 0px solid transparent;
+        box-shadow: none;
+
+        p {
+            font-family: 'Gill Sans Std';
+            font-weight: bold;
+            font-style: normal;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .modal-body {
+        padding: 35px 25px;
+    }
+
+    .close {
+        font-size: 27px;
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        z-index: 100;
+    }
+}
+
 
 /* Extra Small */
 @media(max-width:767px) {
@@ -391,9 +427,14 @@ p {
         }
     }
 
-    .modalFicha {
+    .modalFicha,
+    .modalTourVirtual {
+        .close {
+            top: -26px;
+            right: 10px;
+        }
         .modal-dialog {
-            margin: 6% auto 0;
+            margin: 20% auto 0;
         }
     }
 }
